@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:text="Username"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        app:srcCompat="@drawable/i9" />
+
+    <ImageView
+        android:layout_width="92dp"
+        android:id="@+id/m9"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/ic_channel_foreground" />
+
+</LinearLayout>
